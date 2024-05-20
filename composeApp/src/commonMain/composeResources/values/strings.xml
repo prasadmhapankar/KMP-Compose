@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NasaImagery</string>
+    <string name="details_screen_name">NasaImagery Details</string>
+    <string name="back_button">Back Button</string>
+</resources>

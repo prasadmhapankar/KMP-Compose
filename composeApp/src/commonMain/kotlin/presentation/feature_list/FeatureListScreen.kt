@@ -24,7 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
-import data.dto.EpicImagery
+import data.dto.getImageUrl
 import io.kamel.image.KamelImage
 import io.kamel.image.asyncPainterResource
 
@@ -86,9 +86,4 @@ fun FeatureListScreen(
             }
         }
     }
-}
-
-private fun EpicImagery.getImageUrl(): String {
-    val imageDate = date?.split(" ")?.get(0)?.replace("-", "/") ?: "2024/05/05"
-    return "https://epic.gsfc.nasa.gov/archive/natural/${imageDate}/png/${image}.png"
 }

@@ -11,15 +11,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.CenterAlignedTopAppBar
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SegmentedButtonDefaults.Icon
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -36,12 +30,10 @@ import data.dto.getImageUrl
 import io.kamel.image.KamelImage
 import io.kamel.image.asyncPainterResource
 import kotlinproject.composeapp.generated.resources.Res
-import kotlinproject.composeapp.generated.resources.back
 import kotlinproject.composeapp.generated.resources.caption
 import kotlinproject.composeapp.generated.resources.date
 import kotlinproject.composeapp.generated.resources.version
 import org.jetbrains.compose.resources.stringResource
-import org.jetbrains.compose.ui.tooling.preview.Preview
 
 
 class DetailsScreen(private val epicImagery: EpicImagery) : Screen {

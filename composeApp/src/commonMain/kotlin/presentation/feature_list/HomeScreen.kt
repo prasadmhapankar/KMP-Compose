@@ -26,7 +26,6 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
-import data.dto.EpicImagery
 import data.dto.getImageUrl
 import io.kamel.image.KamelImage
 import io.kamel.image.asyncPainterResource

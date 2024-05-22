@@ -16,7 +16,7 @@ val appModule = module {
         val json = Json { ignoreUnknownKeys = true }
         HttpClient {
             install(ContentNegotiation) {
-                json(json, contentType = ContentType.Application.Json)
+                json(json, contentType = ContentType.Any)
             }
         }
     }
